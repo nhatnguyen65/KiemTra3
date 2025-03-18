@@ -9,7 +9,7 @@
 html {
     font-size: 62.5%;
     font-family: "Roboto", sans-serif;
-    font-size: clamp(1.6rem, 2vw, 2rem);
+    font-size: clamp(1.4rem, 2vw, 1.6rem);
     scroll-behavior: smooth;
 }
 
@@ -18,7 +18,7 @@ html {
 }
 
 header {
-    background-color: #00205B;
+    background-color: #1565C0;
 }
 .menu {
     display: flex;
@@ -39,31 +39,29 @@ header {
     color: #fff;
 }
 
-
 .content {
     background-color: #E8F5E9;
-    margin: 0 200px;
-    height: 550px;
+    margin: 0 150px;
 }
 .content .text-content {
     display: flex;
 }
 .text-content .img-content {
-    width: 100%;
-    height: auto;
-    height: 300px;
+    width: 50%;
+    height: 40%;
+    margin: 20px 20px 0 20px;
 }
 .text-content p {
     /* font-size: 2rem; */
     line-height: 1.6;
-    margin: 0 20px;
+    margin: 20px 20px 0 20px;
 }
 .text-content p a {
     color: red;
 }
 
 .content .text-content-2 {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .text-content-2 p {
     /* font-size: 2rem; */
@@ -74,7 +72,6 @@ header {
 footer {
     background-color: #1565C0;
     color: white;
-    margin: 5px 0;
     padding: 10px;
     text-align: center;
 }
