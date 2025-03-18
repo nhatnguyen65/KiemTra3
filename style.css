@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    user-select: none;
+    list-style: none;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+header {
+    background-color: #00205B;
+}
+.menu {
+    display: flex;
+}
+.menu img {
+    height: 60px;
+    width: 90px;
+}
+.menu ul {
+    display: flex;
+    margin: auto;
+}
+.menu .menu-list {
+    margin: auto 20px;
+}
+.menu-list a {
+    font-size: 2rem;
+    color: #fff;
+}
+
+
+.content {
+    background-color: #E8F5E9;
+    margin: 0 200px;
+    height: 550px;
+}
+.content .text-content {
+    display: flex;
+}
+.text-content .img-content {
+    width: 100%;
+    height: auto;
+    height: 300px;
+}
+.text-content p {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin: 0 20px;
+}
+.text-content p a {
+    color: red;
+}
+
+.content .text-content-2 {
+    margin-top: 50px;
+}
+.text-content-2 p {
+    font-size: 2rem;
+    margin: 0 20px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #1565C0;
+    color: white;
+    margin: 5px 0;
+    padding: 10px;
+    text-align: center;
+}
+footer .student-info, .exam-type {
+    font-size: 1.8rem;
+}
+footer .student-info {
+    margin-bottom: 10px;
+}
